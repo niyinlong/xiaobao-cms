@@ -55,12 +55,5 @@
         </nav>
         @yield('content')
     </div>
-    <script src="{{ asset('layui/layui.js') }}"></script>
-    <script>
-    layui.use(['laydate', 'laypage', 'layer', 'table', 'carousel', 'upload', 'element', 'slider'],function(){
-        //  向世界问个好
-        // layer.msg('Hello World');
-    });
-    </script>
 </body>
 </html>
